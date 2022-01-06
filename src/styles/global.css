@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+}
+
+body {
+    font-size: 1.125 rem;
+    background: var(--blue-800);
+}
+
+:root {
+    --blue-800: hsl(226, 43%, 10%);
+    --blue-700: hsl(235, 46%, 20%);
+    --blue-600: hsl(246, 80%, 60%);
+    --blue-500: hsl(195, 74%, 62%);
+    --blue-400: hsl(235, 45%, 61%);
+    --blue-100: hsl(236, 100%, 87%);
+
+    --red: hsl(348, 100%, 68%);
+    --orange: hsl(15, 100%, 70%);
+    --green: hsl(145, 58%, 55%);
+    --yellow: hsl(43, 84%, 65%);
+    --violet: hsl(264, 64%, 52%);
+}

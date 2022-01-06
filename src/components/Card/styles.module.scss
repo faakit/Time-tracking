@@ -1,0 +1,91 @@
+.card {
+    width: 90vw;
+    margin: 0 auto;
+
+    .cardContent {
+        position: relative;
+        background-color: var(--blue-700);
+        color: white;
+        border-radius: 0.725rem;
+
+        margin-top: -1rem;
+
+        .upperContent {
+            display: flex;
+            justify-content: space-between;
+
+            margin: 0 1rem;
+            padding-top: 1.2rem;
+
+            strong {
+                font-weight: 500;
+            }
+
+            img {
+                object-fit: none;
+            }
+        }
+
+        .lowerContent {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            margin: 0 1rem;
+
+            padding-top: 0.5rem;
+            padding-bottom: 1.5rem;
+
+            time {
+                font-weight: 300;
+                font-size: 2rem;
+            }
+
+            span {
+                color: var(--blue-100);
+                font-size: 0.925rem;
+            }
+        }
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: end;
+
+    border-radius: 0.725rem;
+    height: 3rem;
+
+    img {
+        margin-right: 1rem;
+        height: 3rem;
+        width: 6rem;
+        
+        object-fit:none;
+
+    }
+}
+
+.work {
+    background-color: var(--orange);
+}
+
+.play {
+    background-color: var(--blue-500);
+}
+
+.study {
+    background-color: var(--red);
+}
+
+.exercise {
+    background-color: var(--green);
+}
+
+.social {
+    background-color: var(--violet);
+}
+
+.selfCare {
+    background-color: var(--yellow);
+}
